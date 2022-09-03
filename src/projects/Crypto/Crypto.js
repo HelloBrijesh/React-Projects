@@ -18,7 +18,7 @@ function Crypto() {
   });
 
   return (
-    <div className="App">
+    <div className="Crypto">
       <div className="cryptoHeader">
         <input type="text" placeholder="Search coin" onChange={(e) => setSeachCoin(e.target.value)}></input>
       </div>
